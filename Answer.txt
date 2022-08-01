@@ -1,0 +1,7 @@
+This folder includes the Python code "dna.py" for finding the differences among the results and report the count of each type.
+The "test_count_dna_edit" is a pytest test which is a test for the same.
+
+Here is the SQL statement that will return all of the scores and sequences for the left primers in a given region.
+
+
+SELECT score, dba_sequence FROM primers WHERE INNER JOIN  primer_pair ON primers.id = primer_pair.left_primer_id WHERE primer_pair.region_id = <>
